@@ -1,1 +1,1 @@
-# Projects/Anime Face Generation using DCGAN
+## Anime Face Generation using DCGAN
