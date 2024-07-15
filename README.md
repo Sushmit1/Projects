@@ -30,3 +30,7 @@
 
      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/user_imgs_preds.png)
 
+3. Heart Disease Classification :
+
+   On the UCI Heart Disease Dataset , trained and compared various models , chose the best performing model and tuned hyperparameters using both GridSearchCV and RandomizedSearchCV.  
+   Obtained Accuracy of 84.79 % on the hyperparamter tuned LogisticRegression Model.  
