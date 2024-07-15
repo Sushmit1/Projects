@@ -26,6 +26,11 @@ Dataset : Kaggle Anime Face Dataset https://www.kaggle.com/datasets/splcher/anim
     The output dimensions are expected to be 64x64 pixels, matching the desired image size.  
     Tanh Activation function to map the output values between (-1 and 1) , due to normalisation of images at the image pre-processing step.
 
-### Training the Discriminator :   
-The discriminator can later be used to train the generator.  
-Loss Function : Binary Cross-Entropy Loss Function to quantify how well it differentiates between real and generated images.
+Below is the Transition of the Generated images over 25 epochs :  
+
+After 1st Epoch:  
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0001.png)  
+   After 10 Epochs:  
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0010.png)  
+   After 25 Epochs:  
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0025.png)  
