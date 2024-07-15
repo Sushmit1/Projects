@@ -20,8 +20,12 @@
    Obtained a Multi-Class Log Loss Score of 0.92337 on the test data, demonstrating the model’s accuracy and robustness.
 
    Prediction from Trained Model:  
-      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/output_with_truth_and_pred.png)  
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/output_with_truth_and_pred.png)
+     
    Visualising Top 10 breeds for an image:  
       ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/top_10_preds.png)
+
+   Classify on Unknown User images :
+     ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download%20(1).jpeg) ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download%20(2).jpeg) ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download.jpeg)
    
 
