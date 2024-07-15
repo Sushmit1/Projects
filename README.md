@@ -1,6 +1,7 @@
 ## An Overview of my projects
 
-1. Anime Face Generation using GANS :  
+1. Anime Face Generation using GANS :
+     
    Trained a Deep Convolution GAN (DCGAN) on the Anime Face Dataset containing 63,000 images to generate Anime faces using PyTorch.
    Monitored the generator and discriminator losses throughout the training loop to ensure system progress and stability.
      
