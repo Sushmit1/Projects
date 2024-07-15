@@ -5,7 +5,14 @@
    Monitored the generator and discriminator losses throughout the training loop to ensure system progress and stability.  
 
    Transition of Generated Images over 25 training epochs :  
-  1. After 1st Epoch:  
+   After 1st Epoch:  
       ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0001.png)  
-  2. 
+   After 10 Epochs:
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0010.png)
+   After 25 Epochs:
+      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Anime%20Face%20Generation%20using%20DCGAN/Generated/generated-image-0025.png)  
+
+2. Dog Breed Identification Using Deep Learning :
+
+   Amar
 
