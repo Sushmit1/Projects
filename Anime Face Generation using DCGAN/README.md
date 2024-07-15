@@ -14,3 +14,16 @@ Discriminator Network :
   The final convolutional layer has 1 filter, effectively compressing the high-dimensional feature maps into a single value per image.  
   Flatten: Reshapes the multi-dimensional output from the previous layer.  
   Applies the sigmoid activation function, which maps the output values between 0 and 1, enabling probabilistic interpretation.  
+
+  Generator Network :
+  - Inputs a Latent Vector (random noise vector) of size 128 and initial dimensions of this noise vector is 1x1.  
+  - Deconvolution Blocks :  
+    1. Perform Transposed Convolution Function , the opposite operation of Convolution decreasing the ouput channels (512 → 256 → 128 → 64)
+    2. Batch Normalisation Layer
+    3. ReLU Activation Function to introduce non-linearity into the network.
+  - Output Layer :
+    The final deconvolutional layer has 3 filters, corresponding to the three color channels (RGB) of the generated image.
+    The output dimensions are expected to be 64x64 pixels, matching the desired image size.
+    Tanh Activation function to map the output values between (-1 and 1) , due to normalisation of images at the image pre-processing step.
+    
+  
