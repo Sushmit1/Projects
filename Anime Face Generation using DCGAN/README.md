@@ -11,6 +11,6 @@ Discriminator Network :
   3. Leaky ReLU : Introduces a small non-zero slope for negative inputs, preventing the "dying ReLU" problem where gradients become zero.
        
 - Output Layer :
-  The final convolutional layer has 1 filter, effectively compressing the high-dimensional feature maps into a single value per image.
+  The final convolutional layer has 1 filter, effectively compressing the high-dimensional feature maps into a single value per image.  
   Flatten: Reshapes the multi-dimensional output from the previous layer.
   Applies the sigmoid activation function, which maps the output values between 0 and 1, enabling probabilistic interpretation.  
