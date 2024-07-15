@@ -22,8 +22,8 @@ Dataset : Kaggle Anime Face Dataset https://www.kaggle.com/datasets/splcher/anim
     2. Batch Normalisation Layer
     3. ReLU Activation Function to introduce non-linearity into the network.
   - Output Layer :
-    The final deconvolutional layer has 3 filters, corresponding to the three color channels (RGB) of the generated image.
-    The output dimensions are expected to be 64x64 pixels, matching the desired image size.
-    Tanh Activation function to map the output values between (-1 and 1) , due to normalisation of images at the image pre-processing step.
+    The final deconvolutional layer has 3 filters, corresponding to the three color channels (RGB) of the generated image.  
+    The output dimensions are expected to be 64x64 pixels, matching the desired image size.  
+    Tanh Activation function to map the output values between (-1 and 1) , due to normalisation of images at the image pre-processing step.  
     
   
