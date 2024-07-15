@@ -12,5 +12,5 @@ Discriminator Network :
        
 - Output Layer :
   The final convolutional layer has 1 filter, effectively compressing the high-dimensional feature maps into a single value per image.  
-  Flatten: Reshapes the multi-dimensional output from the previous layer.
+  Flatten: Reshapes the multi-dimensional output from the previous layer.  
   Applies the sigmoid activation function, which maps the output values between 0 and 1, enabling probabilistic interpretation.  
