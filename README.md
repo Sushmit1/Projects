@@ -35,4 +35,9 @@
    On the UCI Heart Disease Dataset , trained and compared various models , chose the best performing model and tuned hyperparameters using both GridSearchCV and RandomizedSearchCV.  
    Obtained Accuracy of 84.79 % on the hyperparamter tuned LogisticRegression Model.
 
-     ![alt text](https://github.com/Sushmit1/Projects/blob/main/Heart%20Disease%20Classification/metrics.png)  
+     ![alt text](https://github.com/Sushmit1/Projects/blob/main/Heart%20Disease%20Classification/metrics.png)
+
+
+4. Housing Prices Prediction :
+     
+   Implemented a RandomForestRegressor through pipelines for Data Transformation and Model Training , producing a RMSE of 16259.24
