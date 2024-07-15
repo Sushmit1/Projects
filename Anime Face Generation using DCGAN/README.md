@@ -2,7 +2,7 @@
 
 Dataset : Kaggle Anime Face Dataset https://www.kaggle.com/datasets/splcher/animefacedataset containing 63,000 images of anime faces.  
   
-Discriminator Network :  
+## Discriminator Network :  
 - Inputs RGB images of 64 x 64 dimensions.
 - Convolutional Blocks - The network employs a series of convolutional blocks, each consisting of the following elements :
     
@@ -15,7 +15,7 @@ Discriminator Network :
   Flatten: Reshapes the multi-dimensional output from the previous layer.  
   Applies the sigmoid activation function, which maps the output values between 0 and 1, enabling probabilistic interpretation.  
 
-  Generator Network :
+## Generator Network :
   - Inputs a Latent Vector (random noise vector) of size 128 and initial dimensions of this noise vector is 1x1.  
   - Deconvolution Blocks :  
     1. Perform Transposed Convolution Function , the opposite operation of Convolution decreasing the ouput channels (512 → 256 → 128 → 64)
