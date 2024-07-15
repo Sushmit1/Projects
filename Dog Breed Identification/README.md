@@ -20,4 +20,4 @@ Prediction from Trained Model:
    Classify on Unknown User images :  
      ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download%20(1).jpeg) ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download%20(2).jpeg) ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/user%20images/download.jpeg)
 
-     ![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/user_imgs_preds.png)
+![alt text](https://github.com/Sushmit1/Projects/blob/main/Dog%20Breed%20Identification/imgs/user_imgs_preds.png)
